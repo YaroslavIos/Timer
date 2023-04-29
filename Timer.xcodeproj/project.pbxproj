@@ -11,6 +11,11 @@
 		C2BC992F29F99E2000C63C68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC992E29F99E2000C63C68 /* ContentView.swift */; };
 		C2BC993129F99E2700C63C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BC993029F99E2700C63C68 /* Assets.xcassets */; };
 		C2BC993429F99E2700C63C68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BC993329F99E2700C63C68 /* Preview Assets.xcassets */; };
+		C2BC993B29F9A17600C63C68 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC993A29F9A17600C63C68 /* TimeCounter.swift */; };
+		C2BC993E29F9A7E800C63C68 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC993D29F9A7E800C63C68 /* LoginView.swift */; };
+		C2BC994029F9A8C700C63C68 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC993F29F9A8C700C63C68 /* UserSettings.swift */; };
+		C2BC994229F9AA6300C63C68 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC994129F9AA6300C63C68 /* RootView.swift */; };
+		C2BC994C29FD7EE200C63C68 /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC994B29FD7EE200C63C68 /* LogOutButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C2BC992E29F99E2000C63C68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2BC993029F99E2700C63C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2BC993329F99E2700C63C68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2BC993A29F9A17600C63C68 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		C2BC993D29F9A7E800C63C68 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C2BC993F29F9A8C700C63C68 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		C2BC994129F9AA6300C63C68 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C2BC994B29FD7EE200C63C68 /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,12 @@
 			children = (
 				C2BC992C29F99E2000C63C68 /* TimerApp.swift */,
 				C2BC992E29F99E2000C63C68 /* ContentView.swift */,
+				C2BC994B29FD7EE200C63C68 /* LogOutButtonView.swift */,
+				C2BC993A29F9A17600C63C68 /* TimeCounter.swift */,
 				C2BC993029F99E2700C63C68 /* Assets.xcassets */,
+				C2BC993D29F9A7E800C63C68 /* LoginView.swift */,
+				C2BC993F29F9A8C700C63C68 /* UserSettings.swift */,
+				C2BC994129F9AA6300C63C68 /* RootView.swift */,
 				C2BC993229F99E2700C63C68 /* Preview Content */,
 			);
 			path = Timer;
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2BC993B29F9A17600C63C68 /* TimeCounter.swift in Sources */,
 				C2BC992F29F99E2000C63C68 /* ContentView.swift in Sources */,
+				C2BC994C29FD7EE200C63C68 /* LogOutButtonView.swift in Sources */,
+				C2BC994229F9AA6300C63C68 /* RootView.swift in Sources */,
+				C2BC993E29F9A7E800C63C68 /* LoginView.swift in Sources */,
+				C2BC994029F9A8C700C63C68 /* UserSettings.swift in Sources */,
 				C2BC992D29F99E2000C63C68 /* TimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
